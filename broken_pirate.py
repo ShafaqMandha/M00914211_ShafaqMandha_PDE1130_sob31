@@ -4,8 +4,9 @@
     Module: PDE1130
     SOB no. 31
 '''
-greeting = input("Hello, possible pirate! What's the password?)
-if greeting in ["Arrr!"):
+greeting = input("Hello, possible pirate! What's the password?") # Added a double quote to end the input prompt (afater "password?").
+if greeting == "Arrr!":
 	print("Go away, pirate.")
-elif
-print("Greetings, hater of pirates!")
+else:
+	print("Greetings, hater of pirates!")
+
