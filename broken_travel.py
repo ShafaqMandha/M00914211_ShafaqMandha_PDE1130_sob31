@@ -1,6 +1,7 @@
 '''
     Name: Shafaq Mandha 
     MISIS: M00914211
+    
 '''
 
 # A time traveler has suddenly appeared in your classroom!
