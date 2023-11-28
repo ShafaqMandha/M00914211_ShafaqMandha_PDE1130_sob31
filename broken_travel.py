@@ -12,7 +12,13 @@
 # if he is from the distant past (before 1900),
 # the present era (1900-2020) or from the far future (beyond 2020).
 
-year == int.input("Greetings! What is your year of origin? '))
+year = int(input("Greetings! What is your year of origin?"))
+'''
+    Corrections made:
+        - Changed "==" to "=".
+        - Changed "." to "(".
+        - Changed the single quotation and the end of the input statement to double quotation. 
+'''
 
 if year <= 1900
     print ('Woah, that's the past!')
