@@ -51,13 +51,26 @@ avg = total_grade / len(grades) # Changed "grdes" to "grades" since we need to t
 
 if avg >= 90:
     letter_grade = "A"
-elif avg >= 80 and avg < 90
+elif avg >= 80 and avg < 90:
     letter_grade = "B"
-elif avg > 69 and avg < 80:
-    letter_grade = "C'
-elif avg <= 69 and avg >= 65:
+    '''
+        Corrections made in above two lines:
+            - Added a colon as it was missing causing a syntax error.
+    '''
+elif avg >= 70 and avg < 80:
+    letter_grade = "C"
+    '''
+        Corrections made:
+            - Changed single quotation at the end of C to double quotations.
+            - Changed the range from "avg > 69 and avg < 80" to "avg >= 70 and avg < 80"
+    '''
+elif avg >= 60 and avg <70:
     letter_grade = "D"
-elif:
+    '''
+        Corrections made:
+            - Changed the range from "avg <= 69 and avg >= 65" to "avg >= 60 and avg < 70"
+    '''
+else:
     letter_grade = "F"
 
 for grade in grades:
