@@ -1,3 +1,9 @@
+'''
+    Name: Shafaq Mandha 
+    MISIS: M0091411
+    Module: PDE1130
+    SOB no. 31
+'''
 import random
 
 def compare_numbers(number, user_guess):
