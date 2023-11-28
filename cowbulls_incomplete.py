@@ -6,9 +6,21 @@
 '''
 import random
 
+cowbullcount=[] # declaring an empy list
 def compare_numbers(number, user_guess):
     ## your code here
-    return cowbull
+    current = 0 #Intializing the variables first
+    cows = 0
+    bulls = 0
+    for i in user_guess:
+        if i in number:
+            cows+=1
+            if number[current]==i:
+                bulls+1
+        else:
+            current+=1
+    cowbullcount=[cows,bulls]
+    return cowbullcount # Changed "cowbull" to "cowbullcount". 
 
 playing = True #gotta play the game
 number = str(random.randint(0,9999)) #random 4 digit number
