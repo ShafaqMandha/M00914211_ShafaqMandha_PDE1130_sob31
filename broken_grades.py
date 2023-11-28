@@ -80,7 +80,14 @@ for grade in grades:
 
     print("Grade: " + letter_grade)
 
-if letter-grade is "F":
-    print "Student is failing."
+if letter_grade == "F":
+    print ("Student is failing.")
 else:
-    print "Student is passing."
+    print("Student is passing.")
+'''
+    Corrections made:
+        -	Changed "letter-grade" to "letter_grade" since the correct name of the variable is "letter_grade".
+        -	Changed "is "F"" to " == "F"".
+        -	Added parenthesis for the print statements for it to execute properly
+
+'''
