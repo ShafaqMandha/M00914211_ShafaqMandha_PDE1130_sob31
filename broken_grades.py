@@ -42,11 +42,12 @@ exam_three = int(input("Input exam grade three: "))
 '''
 
 grades = [exam_one, exam_two, exam_three]
-sum = 0
-for grade in grade:
-  sum = sum + grade
+# Added a comma between the variable names in the array.
 
-avg = sum / len(grdes)
+total_grade = 0 # "sum is already a predefined functon in python so there I changed the variable name to total_grade
+for grade in grades: # Changed "grade" to "grades" as the correct variable name is set as "grades" and "grade" undefined.
+    total_grade = total_grade + grade
+avg = total_grade / len(grades) # Changed "grdes" to "grades" since we need to take the length of the array grades and the array grdes does not exist
 
 if avg >= 90:
     letter_grade = "A"
