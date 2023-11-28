@@ -1,7 +1,13 @@
+'''
+    Name: Shafaq Mandha 
+    MISIS: M00914211
+    Module: PDE1130
+    SOB no. 31
+'''
+
 #tictactoe game.
 
-# Find the 4 errors in the code and fix them,
-# so the game works as expected.
+# Find the 4 errors in the code and fix them, so the game works as expected.
 
 def draw_line(width, edge, filling):
     print(filling.join([edge] * (width + 1)))
@@ -67,7 +73,7 @@ def add_piece(game, player, row, column):
     row: 0-index row
     column: 0-index column
     """
-    game[row][column+1] = player
+    game[row][column+1] = player 
     return game
 
 def check_space_empty(game, row, column):
